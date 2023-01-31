@@ -313,19 +313,46 @@ ul.left-icon.hotline {
 }
 
 .float-icon-hotline ul li .fa-zalo {
-    background: url(https://netweb.vn/img/hotline/zalo.png) center center no-repeat;
+    background: url(../images/hotline/zalo.png) center center no-repeat;
+}
+
+.float-icon-hotline ul li .fa-facebook {
+    background: url(../images/hotline/fb.png) center center no-repeat;
+}
+
+.float-icon-hotline ul li .fa-facebook:hover {
+    background: #ef0303 url(../images/hotline/fb.png) center center no-repeat;
+    opacity: .5;
 }
 
 .float-icon-hotline ul li .fa-zalo:hover {
-    background: #ef0303 url(https://netweb.vn/img/hotline/zalo.png) center center no-repeat;
+    background: #ef0303 url(../images/hotline/zalo.png) center center no-repeat;
     opacity: .5;
 }
 
 .float-icon-hotline ul li .fa-messenger {
-    background: url(https://netweb.vn/img/hotline/fb.png) center center no-repeat;
+    background: url(../images/hotline/fbmes.png) center center no-repeat;
 }
 
 .float-icon-hotline ul li .fa-messenger:hover {
-    background: #168efb url(https://netweb.vn/img/hotline/fb.png) center center no-repeat;
+    background: #168efb url(../images/hotline/fbmes.png) center center no-repeat;
+    opacity: .5;
+}
+
+.float-icon-hotline ul li .fa-youtube {
+    background: url(../images/hotline/youtube.png) center center no-repeat;
+}
+
+.float-icon-hotline ul li .fa-youtube:hover {
+    background: #ef0303 url(../images/hotline/youtube.png) center center no-repeat;
+    opacity: .5;
+}
+
+.float-icon-hotline ul li .fa-tiktok {
+    background: url(../images/hotline/tiktok.png) center center no-repeat;
+}
+
+.float-icon-hotline ul li .fa-tiktok:hover {
+    background: #ef0303 url(../images/hotline/tiktok.png) center center no-repeat;
     opacity: .5;
 }
