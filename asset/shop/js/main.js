@@ -214,7 +214,7 @@
     });
 
     $('.productList').paginathing({
-        perPage: 6,
+        perPage: 12,
         limitPagination: false,
         containerClass: 'panel-footer mt-4',
         pageNumbers: false,
