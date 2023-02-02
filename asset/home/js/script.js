@@ -9,6 +9,12 @@
     "use strict";
     $(".video-play").modalVideo();
 
+    $(window).on('load', function() {
+        $(".loader").fadeOut();
+        $("#preloder").delay(200).fadeOut("slow");
+
+
+    });
     $(".portfolio-single-slider").slick({
         infinite: true,
         arrows: false,
