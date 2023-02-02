@@ -16,6 +16,43 @@ html {
     overflow-x: hidden;
 }
 
+.slick-prev:before {
+    color: rgb(16, 133, 35) !important;
+    font-size: 40px;
+    line-height: 1;
+    opacity: .75;
+    background-color: #eee;
+}
+
+.slick-next:before {
+    color: rgb(16, 133, 35) !important;
+    font-size: 40px;
+    line-height: 1;
+    opacity: .75;
+    background-color: #eee;
+}
+
+
+/* .slick-prev {
+    right: -40px;
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 15px solid #113463;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+
+.slick-next {
+    right: -20px;
+    width: 0;
+    height: 0;
+    border-right: 0 solid transparent;
+    border-left: 15px solid #113463;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+} */
+
 
 /* ------------- LOADER --------------- */
 

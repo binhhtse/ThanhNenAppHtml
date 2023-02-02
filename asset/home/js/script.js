@@ -108,8 +108,8 @@
         slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
-        dots: false,
-        arrows: false,
+        dots: true,
+        arrows: true,
         autoplay: false,
         autoplaySpeed: 3000
 
@@ -119,9 +119,12 @@
         slidesToShow: 4,
         slidesToScroll: 4,
         infinite: true,
-        dots: false,
-        arrows: false,
+        dots: true,
+        dotsClass: 'slick-dots',
+        arrows: true,
         autoplay: true,
+        prevArrow: '<div class="slick-prev"></div>',
+        nextArrow: '<div class="slick-next"></div>',
         autoplaySpeed: 6000,
         responsive: [{
                 breakpoint: 1024,
