@@ -21,7 +21,7 @@ html {
     font-size: 40px;
     line-height: 1;
     opacity: .75;
-    background-color: #eee;
+    background-color: #f1f1f2;
 }
 
 .slick-next:before {
@@ -29,7 +29,7 @@ html {
     font-size: 40px;
     line-height: 1;
     opacity: .75;
-    background-color: #eee;
+    background-color: #f1f1f2;
 }
 
 
@@ -1835,7 +1835,7 @@ ul.dropdown-menu li {
 
 .footer {
     background: #1a7403;
-    padding-top: 100px;
+    padding-top: 200px;
 }
 
 .footer__about {
