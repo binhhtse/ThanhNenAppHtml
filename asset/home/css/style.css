@@ -16,6 +16,38 @@ html {
     overflow-x: hidden;
 }
 
+.top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.head-primary .title {
+    font-size: 140px;
+    text-transform: uppercase;
+    font-weight: bold;
+    -webkit-text-stroke: 1px rgba(64, 64, 65, 0.3);
+    color: transparent;
+    line-height: 1;
+}
+
+.head-primary span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 50px;
+    color: #516d7a;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
 
 /* .slick-prev {
     right: -40px;
@@ -992,7 +1024,7 @@ ul.dropdown-menu li {
 }
 
 .heading {
-    margin-bottom: 90px;
+    margin-bottom: 30px;
 }
 
 .case-img,
@@ -1751,7 +1783,7 @@ ul.dropdown-menu li {
 
 .footer {
     background: #1a7403;
-    padding-top: 100px;
+    padding-top: 250px;
 }
 
 .footer__about {
