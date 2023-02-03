@@ -116,8 +116,8 @@
     });
 
     $(".portfolio-gallery").slick({
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToShow: 6,
+        slidesToScroll: 6,
         infinite: true,
         dots: true,
         dotsClass: 'slick-dots',
@@ -125,7 +125,7 @@
         autoplay: true,
         prevArrow: '<div class="slick-prev"></div>',
         nextArrow: '<div class="slick-next"></div>',
-        autoplaySpeed: 6000,
+        autoplaySpeed: 1200,
         responsive: [{
                 breakpoint: 1024,
                 settings: {
