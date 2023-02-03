@@ -16,22 +16,6 @@ html {
     overflow-x: hidden;
 }
 
-.slick-prev:before {
-    color: rgb(16, 133, 35) !important;
-    font-size: 40px;
-    line-height: 1;
-    opacity: .75;
-    background-color: #f1f1f2;
-}
-
-.slick-next:before {
-    color: rgb(16, 133, 35) !important;
-    font-size: 40px;
-    line-height: 1;
-    opacity: .75;
-    background-color: #f1f1f2;
-}
-
 
 /* .slick-prev {
     right: -40px;
@@ -52,74 +36,6 @@ html {
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
 } */
-
-
-/* ------------- LOADER --------------- */
-
-#preloder {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 999999;
-    background: #000;
-}
-
-.loader {
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -13px;
-    margin-left: -13px;
-    border-radius: 60px;
-    animation: loader 0.8s linear infinite;
-    -webkit-animation: loader 0.8s linear infinite;
-}
-
-@keyframes loader {
-    0% {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-        border: 4px solid #f44336;
-        border-left-color: transparent;
-    }
-    50% {
-        -webkit-transform: rotate(180deg);
-        transform: rotate(180deg);
-        border: 4px solid #673ab7;
-        border-left-color: transparent;
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-        transform: rotate(360deg);
-        border: 4px solid #f44336;
-        border-left-color: transparent;
-    }
-}
-
-@-webkit-keyframes loader {
-    0% {
-        -webkit-transform: rotate(0deg);
-        border: 4px solid #f44336;
-        border-left-color: transparent;
-    }
-    50% {
-        -webkit-transform: rotate(180deg);
-        border: 4px solid #673ab7;
-        border-left-color: transparent;
-    }
-    100% {
-        -webkit-transform: rotate(360deg);
-        border: 4px solid #f44336;
-        border-left-color: transparent;
-    }
-}
-
-
-/* ------------- LOADER --------------- */
 
 body {
     line-height: 1.6;
@@ -351,7 +267,7 @@ input[type=tel]:focus {
 }
 
 .section {
-    padding: 50px 0px;
+    padding: 25px 0px;
 }
 
 .section-sm {
