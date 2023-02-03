@@ -115,8 +115,8 @@
 
     });
     $(".news-gallery").slick({
-        slidesToShow: 4,
-        slidesToScroll: 4,
+        slidesToShow: 5,
+        slidesToScroll: 1,
         infinite: true,
         dots: true,
         dotsClass: 'slick-dots',
@@ -124,7 +124,7 @@
         autoplay: true,
         prevArrow: '<div class="slick-prev"></div>',
         nextArrow: '<div class="slick-next"></div>',
-        autoplaySpeed: 1200,
+        autoplaySpeed: 6000,
         responsive: [{
                 breakpoint: 1024,
                 settings: {
@@ -158,8 +158,8 @@
         ],
     });
     $(".portfolio-gallery").slick({
-        slidesToShow: 6,
-        slidesToScroll: 6,
+        slidesToShow: 5,
+        slidesToScroll: 1,
         infinite: true,
         dots: true,
         dotsClass: 'slick-dots',

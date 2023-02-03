@@ -107,3 +107,7 @@
 .product-button:hover {
     transform: scale(1.06);
 }
+
+.product-gallery {
+    margin-top: 15px;
+}
