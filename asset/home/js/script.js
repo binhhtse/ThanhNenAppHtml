@@ -258,4 +258,170 @@
         $(".product-button").css("color", $(this).attr("data-color"));
         $(".product-pic").css("background-image", $(this).attr("data-pic"));
     });
+
+    var words = ['Xe Chính Hãng', 'Xe Đã Qua Sử Dụng'],
+        words1 = ['Honda', 'Yamaha', 'SYM', 'Xe Nhập Khẩu'],
+        words2 = ['Sơn-Custom màu xe', 'Đồ chơi xe', 'Dọn xe'],
+        words3 = ['Duyệt hồ sơ Online', 'Lãi suất thấp/Giao cavet gốc', 'Giao xe về tận nhà']
+
+    var wordflick = function() {
+        var part,
+            i = 0,
+            offset = 0,
+            len = words.length,
+            forwards = true,
+            skip_count = 0,
+            skip_delay = 15,
+            speed = 120;
+        setInterval(function() {
+            if (forwards) {
+                if (offset >= words[i].length) {
+                    ++skip_count;
+                    if (skip_count == skip_delay) {
+                        forwards = false;
+                        skip_count = 0;
+                    }
+                }
+            } else {
+                if (offset == 0) {
+                    forwards = true;
+                    i++;
+                    offset = 0;
+                    if (i >= len) {
+                        i = 0;
+                    }
+                }
+            }
+            part = words[i].substr(0, offset);
+            if (skip_count == 0) {
+                if (forwards) {
+                    offset++;
+                } else {
+                    offset--;
+                }
+            }
+            $('.word1').text(part);
+        }, speed);
+    };
+    var wordflick1 = function() {
+        var part,
+            i = 0,
+            offset = 0,
+            len = words.length,
+            forwards = true,
+            skip_count = 0,
+            skip_delay = 15,
+            speed = 120;
+        setInterval(function() {
+            if (forwards) {
+                if (offset >= words1[i].length) {
+                    ++skip_count;
+                    if (skip_count == skip_delay) {
+                        forwards = false;
+                        skip_count = 0;
+                    }
+                }
+            } else {
+                if (offset == 0) {
+                    forwards = true;
+                    i++;
+                    offset = 0;
+                    if (i >= len) {
+                        i = 0;
+                    }
+                }
+            }
+            part = words1[i].substr(0, offset);
+            if (skip_count == 0) {
+                if (forwards) {
+                    offset++;
+                } else {
+                    offset--;
+                }
+            }
+            $('.word2').text(part);
+        }, speed);
+    };
+    var wordflick2 = function() {
+        var part,
+            i = 0,
+            offset = 0,
+            len = words.length,
+            forwards = true,
+            skip_count = 0,
+            skip_delay = 15,
+            speed = 120;
+        setInterval(function() {
+            if (forwards) {
+                if (offset >= words2[i].length) {
+                    ++skip_count;
+                    if (skip_count == skip_delay) {
+                        forwards = false;
+                        skip_count = 0;
+                    }
+                }
+            } else {
+                if (offset == 0) {
+                    forwards = true;
+                    i++;
+                    offset = 0;
+                    if (i >= len) {
+                        i = 0;
+                    }
+                }
+            }
+            part = words2[i].substr(0, offset);
+            if (skip_count == 0) {
+                if (forwards) {
+                    offset++;
+                } else {
+                    offset--;
+                }
+            }
+            $('.word3').text(part);
+        }, speed);
+    };
+    var wordflick3 = function() {
+        var part,
+            i = 0,
+            offset = 0,
+            len = words.length,
+            forwards = true,
+            skip_count = 0,
+            skip_delay = 15,
+            speed = 120;
+        setInterval(function() {
+            if (forwards) {
+                if (offset >= words3[i].length) {
+                    ++skip_count;
+                    if (skip_count == skip_delay) {
+                        forwards = false;
+                        skip_count = 0;
+                    }
+                }
+            } else {
+                if (offset == 0) {
+                    forwards = true;
+                    i++;
+                    offset = 0;
+                    if (i >= len) {
+                        i = 0;
+                    }
+                }
+            }
+            part = words3[i].substr(0, offset);
+            if (skip_count == 0) {
+                if (forwards) {
+                    offset++;
+                } else {
+                    offset--;
+                }
+            }
+            $('.word4').text(part);
+        }, speed);
+    };
+    //wordflick();
+    //wordflick1();
+    //wordflick2();
+    //wordflick3();
 })(jQuery);
