@@ -1921,6 +1921,10 @@ ul.dropdown-menu li {
     margin-right: 7px;
 }
 
+.addressFooter {
+    margin-left: 60px;
+}
+
 .copyright {
     color: rgba(255, 255, 255, 0.7);
 }

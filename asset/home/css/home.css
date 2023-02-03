@@ -16,6 +16,10 @@
     background-color: #f1f1f2;
 }
 
+.slick-prev {
+    left: -55px !important;
+}
+
 
 /* --------- Slick Carosel next------------ */
 
