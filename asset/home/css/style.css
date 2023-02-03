@@ -30,18 +30,19 @@ html {
 }
 
 .head-primary .title {
-    font-size: 140px;
+    font-size: 70px;
     text-transform: uppercase;
     font-weight: bold;
-    -webkit-text-stroke: 1px rgba(64, 64, 65, 0.3);
-    color: transparent;
+    -webkit-text-stroke: 1px rgba(16, 182, 57, 0.3);
+    color: green;
     line-height: 1;
 }
 
 .head-primary span {
     position: absolute;
     bottom: 0;
-    left: 0;
+    /* --- Chữ nghiêng về trái --- */
+    /* left: 3; */
     font-size: 50px;
     color: #516d7a;
     font-weight: bold;

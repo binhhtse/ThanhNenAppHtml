@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+.first {
+    /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+    animation: showup 7s infinite;
+}
+
+.top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.head-primary .title {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    -webkit-text-stroke: 1px rgba(16, 182, 57, 0.3);
+    color: green;
+    line-height: 1;
+}
+
+.head-primary span {
+    position: absolute;
+    bottom: 0;
+    /* --- Chữ nghiêng về trái --- */
+    /* left: 3; */
+    font-size: 40px;
+    color: #516d7a;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.end {
+    width: 0px;
+    animation: reveal 7s infinite;
+}
+
+.fadeInUp {
+    animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slidein {
+    0% {
+        margin-left: -800px;
+    }
+    20% {
+        margin-left: -800px;
+    }
+    35% {
+        margin-left: 0px;
+    }
+    100% {
+        margin-left: 0px;
+    }
+}
+
+@keyframes reveal {
+    0% {
+        opacity: 0;
+        width: 0px;
+    }
+    20% {
+        opacity: 1;
+        width: 0px;
+    }
+    30% {
+        width: 355px;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        width: 355px;
+    }
+}
