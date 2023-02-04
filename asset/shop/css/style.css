@@ -144,8 +144,9 @@ ol {
 }
 
 .spad {
-    padding-top: 100px;
+    padding-top: 50px;
     padding-bottom: 100px;
+    background-color: white;
 }
 
 .text-white h1,
