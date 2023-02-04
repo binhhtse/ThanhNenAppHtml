@@ -122,7 +122,7 @@
     font-weight: bold;
 }
 
-.animate-charcter-sub {
+.animate-charcter-titlte {
     text-transform: uppercase;
     background-image: linear-gradient( -225deg, #231557 0%, #17107a 10%, #20a870 20%, #aa8432 30%, #c01f82 40%, #ff1361 50%, #681833 60%, #a913ff 70%, #138dff 80%, #1cb0c4 90%, #ff1361 95%, #fff800 100%);
     background-size: auto auto;
@@ -134,9 +134,25 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: textclip 5s linear infinite;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.animate-charcter-sub {
+    text-transform: uppercase;
+    background-image: linear-gradient( -225deg, #2acf61 0%, #2c20d3 10%, #0feb2d 20%, #aa8432 30%, #f01111 40%, #d2e710 50%, #da9b14 60%, #a913ff 70%, #138dff 80%, #1cb0c4 90%, #ff1361 95%, #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 5s linear infinite;
     display: inline-block;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 900;
 }
 
 @keyframes textclip {
