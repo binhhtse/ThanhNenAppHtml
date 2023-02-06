@@ -1,12 +1,3 @@
-/*  ---------------------------------------------------
-    Template Name: Male Fashion
-    Description: Male Fashion - ecommerce teplate
-    Author: Colorib
-    Author URI: https://www.colorib.com/
-    Version: 1.0
-    Created: Colorib
----------------------------------------------------------  */
-
 'use strict';
 
 (function($) {
@@ -222,8 +213,6 @@
         prevText: 'Trước',
         nextText: 'Sau',
         firstText: 'Đầu Tiên',
-
         lastText: 'Cuối Cùng',
-
     })
 })(jQuery);
