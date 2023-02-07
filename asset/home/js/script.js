@@ -242,6 +242,8 @@
         google.maps.event.addDomListener(window, "load", initialize);
     }
 
+
+
     // Counter
 
     $(".counter-stat").counterUp({
