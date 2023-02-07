@@ -1,0 +1,39 @@
+summary {
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: #fff;
+    color: #333;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    outline: none;
+    border-radius: 0.25rem;
+    text-align: left;
+    cursor: pointer;
+    position: relative;
+    /* ---------- */
+    /* background-image: linear-gradient( -225deg, #2acf61 0%, #2c20d3 10%, #0feb2d 20%, #aa8432 30%, #f01111 40%, #d2e710 50%, #da9b14 60%, #a913ff 70%, #138dff 80%, #1cb0c4 90%, #ff1361 95%, #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 5s linear infinite; */
+}
+
+details>summary::after {
+    position: absolute;
+    content: "+";
+    right: 20px;
+}
+
+details[open]>summary::after {
+    position: absolute;
+    content: "-";
+    right: 20px;
+}
+
+details>summary::-webkit-details-marker {
+    display: none;
+}
