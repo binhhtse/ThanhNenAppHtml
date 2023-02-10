@@ -7,14 +7,19 @@
 
 (function($) {
     "use strict";
-    $(".video-play").modalVideo();
-
+    // $(".video-play").modalVideo();
+    $('.video-play').magnificPopup({
+        type: 'iframe'
+    });
     $(window).on('load', function() {
         $(".loader").fadeOut();
         $("#preloder").delay(200).fadeOut("slow");
 
 
     });
+
+    $('.footer__copyright__text').hide();
+
     $(".portfolio-single-slider").slick({
         infinite: true,
         arrows: false,

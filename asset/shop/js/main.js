@@ -214,5 +214,7 @@
         nextText: 'Sau',
         firstText: 'Đầu Tiên',
         lastText: 'Cuối Cùng',
-    })
+    });
+
+    $('.footer__copyright__text').hide();
 })(jQuery);
